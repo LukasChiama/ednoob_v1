@@ -6,6 +6,23 @@
   transform: translate(-50%, -50%)
 }
 
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.head {
+  padding: 5px 8px;
+}
+
+.signin-head {
+  background-color: rgb(38, 38, 252);
+  color: white;
+  padding: 5px 10px;
+}
+
 .words {
   font-size: 6rem;
   margin-bottom: 5px;
@@ -40,7 +57,7 @@ input {
 }
 
 .search {
-  background-color: rgb(00, 00, 00);
+  background-color: rgb(230, 228, 228);
   padding: 10px;
   margin: 20px 0;
 }
