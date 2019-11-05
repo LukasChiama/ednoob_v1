@@ -1,0 +1,14 @@
+.heading {
+  text-align: center;
+}
+
+.question {
+  background-color: rgb(10, 10, 136);
+  color: #fffffa;
+  margin: 0 200px 10px 200px;
+  padding: 5px;
+}
+
+.question-number {
+  text-align: center;
+}
