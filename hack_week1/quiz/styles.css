@@ -3,12 +3,23 @@
 }
 
 .question {
-  background-color: rgb(10, 10, 136);
-  color: #fffffa;
-  margin: 0 200px 10px 200px;
-  padding: 5px;
+  background: linear-gradient(211deg, rgb(218, 209, 209) 48%, rgb(173, 171, 171) 50%);
+  color: #2b2b2b;
+  margin: 20px auto;
+  width: 300px;
+  padding: 5px 10px;
+  border-radius: 4px;
 }
 
 .question-number {
   text-align: center;
+}
+
+button {
+  margin: 2% 40%;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(10, 192, 10);
 }
