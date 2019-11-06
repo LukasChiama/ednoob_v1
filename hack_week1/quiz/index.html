@@ -9,22 +9,24 @@
     <section class="question">
       <h4 class="question-number">Question 1</h4>
       <p>What is the full meaning of HTML?</p>
-      <input
-        type="checkbox"
-        name="html"
-        value="Hundred Thousand Mighty Lions"
-      />Hundred Thousand Mighty Lions<br />
-      <input
-        type="checkbox"
-        name="html"
-        value="Hypertext Markdown Language"
-      />Hypertext Markdown Language<br />
-      <input
-        type="checkbox"
-        name="html"
-        value="Hypertext Markup Language"
-      />Hypertext Markup Language <br />
-      <button>Submit</button>
+      <section id="html-options">
+        <input
+          type="radio"
+          name="html"
+          value="Hundred Thousand Mighty Lions"
+        />Hundred Thousand Mighty Lions<br />
+        <input
+          type="radio"
+          name="html"
+          value="Hypertext Markdown Language"
+        />Hypertext Markdown Language<br />
+        <input
+          type="radio"
+          name="html"
+          value="Hypertext Markup Language"
+        />Hypertext Markup Language <br />
+      </section>
+      <button onclick='checkAnswer()'>Submit</button>
     </section>
     <section class="question">
       <h4 class="question-number">Question 2</h4>
@@ -40,5 +42,6 @@
       Style Sheets <br />
       <button>Submit</button>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
