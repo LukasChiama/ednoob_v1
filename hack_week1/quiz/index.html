@@ -8,29 +8,34 @@
     <h1 class="heading">Welcome To Hack Quiz</h1>
     <section class="question">
       <h4 class="question-number">Question 1</h4>
-      <p>What is the full meaning of HTML?</p>
+      <p id="question-one">What is the full meaning of HTML?</p>
       <section id="html-options">
-        <input
-          type="radio"
-          name="html"
-          value="Hundred Thousand Mighty Lions"
-        />Hundred Thousand Mighty Lions<br />
-        <input
-          type="radio"
-          name="html"
-          value="Hypertext Markdown Language"
-        />Hypertext Markdown Language<br />
-        <input
-          type="radio"
-          name="html"
-          value="Hypertext Markup Language"
-        />Hypertext Markup Language <br />
+        <p id="answer-one">
+          <input
+            type="radio"
+            name="html"
+            value="Hundred Thousand Mighty Lions"
+          />Hundred Thousand Mighty Lions
+        </p>
+        <p>
+          <input
+            type="radio"
+            name="html"
+            value="Hypertext Markdown Language"
+          />Hypertext Markdown Language
+        </p>
+        <p>
+          <input
+            type="radio"
+            name="html"
+            value="Hypertext Markup Language"
+          />Hypertext Markup Language
+        </p>
       </section>
-      <button onclick='checkAnswer()'>Submit</button>
     </section>
     <section class="question">
       <h4 class="question-number">Question 2</h4>
-      <p>What is the meaning of CSS?</p>
+      <p id="question-two">What is the meaning of CSS?</p>
       <input
         type="radio"
         name="css"
@@ -40,7 +45,7 @@
       Single Sheet <br />
       <input type="radio" name="css" value="Cascading Style Sheets" />Cascading
       Style Sheets <br />
-      <button>Submit</button>
+      <button onclick="checkScore()">Submit</button>
     </section>
     <script src="script.js"></script>
   </body>
