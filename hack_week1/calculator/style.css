@@ -1,0 +1,13 @@
+button {
+  width: 30px;
+  height: 30px;
+  margin: -2px;
+}
+
+#screen {
+  height: 30px;
+  background-color: #2b2b2b;
+  width:120px;
+  margin-left: -2px;
+  color: #ffffff;
+}

@@ -18,9 +18,11 @@ header {
 }
 
 .signin-head {
-  background-color: rgb(38, 38, 252);
+  background-color: rgb(59, 94, 250);
   color: white;
   padding: 5px 10px;
+  margin: 0 15px 0 10px;
+  border-radius: 2px;
 }
 
 .words {
@@ -64,4 +66,8 @@ input {
 
 a {
   text-decoration: none;
+}
+
+.language {
+  padding: 5px;
 }
